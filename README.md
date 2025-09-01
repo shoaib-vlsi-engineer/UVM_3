@@ -3,7 +3,7 @@ This work focuses on exploring the execution order of different UVM phases by im
 
 The package file ram_pkg.sv imports uvm_pkg and includes all required source files, while top.sv imports the package, includes UVM macros, and calls run_test("ram_wr_test") in the initial block. The simulation is executed from the sim directory using make run_test, and the output demonstrates the sequence and order of phase execution.
 
-#Key Learnings –
+# Key Learnings –
 
 Implementation of all major UVM phases (build, connect, run, etc.) across different components.
 
